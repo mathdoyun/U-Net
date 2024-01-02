@@ -6,7 +6,7 @@ U-Net은 이미지를 픽셀 단위로 끊어 분류하는 문제인 image segme
 
 ![U-net architecture](https://github.com/mathdoyun/U-Net/assets/135238974/77b2a875-5b00-4a45-9a0a-992c52ac75c3)
 
-<img src="https://github.com/mathdoyun/U-Net/assets/135238974/77b2a875-5b00-4a45-9a0a-992c52ac75c3" width="200" height="400"/>
+<img src="https://github.com/mathdoyun/U-Net/assets/135238974/77b2a875-5b00-4a45-9a0a-992c52ac75c3" width="50%" height="50%"/>
 
 U-Net을 이용하면 사진이 입력되었을때 배경과 물체를 구분하는 경계를 찾아낼 수 있는데, 직접 코드를 작성하며 실습해보았다.
 
