@@ -9,3 +9,7 @@ U-Net은 이미지를 픽셀 단위로 끊어 분류하는 문제인 image segme
 U-Net을 이용하면 사진이 입력되었을때 배경과 물체를 구분하는 경계를 찾아낼 수 있는데, 직접 코드를 작성하며 실습해보았다.
 
 > 출처: 텐초의 파이토치 딥러닝 특강
+
+P.S. 교재 링크에 있는 데이터셋과 코드를 그대로 따라하면 오류가 발생하는데, 아래의 파일들이 32bit(4채널), 8bit(1채널) jpg라 차원이 맞지 않는 것이다. 이 파일을 제거하면 코드가 실행된다.
+
+- Abyssinian_34, Abyssinian_5, Egyptian_Mau_129, Egyptian_Mau_139, Egyptian_Mau_14, Egyptian_Mau_145, Egyptian_Mau_167, Egyptian_Mau_177, Egyptian_Mau_186, Egyptian_Mau_191, staffordshire_bull_terrier_2, staffordshire_bull_terrier_22
